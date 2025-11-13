@@ -1,12 +1,11 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const sqlite3 = require("sqlite3").verbose();
 
 const app = express();
 const port = 3000;
 
 // Middleware para receber JSON no corpo das requisições
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Cria ou abre o banco de dados local SQLite
 const db = new sqlite3.Database("./database.db", (err) => {
