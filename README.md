@@ -9,7 +9,6 @@ Este é um projeto simples de **CRUD (Create, Read, Update, Delete)** para geren
 - [Node.js](https://nodejs.org/)
 - [Express](https://expressjs.com/)
 - [SQLite3](https://www.sqlite.org/)
-- [Body-Parser](https://www.npmjs.com/package/body-parser)
 
 ---
 
