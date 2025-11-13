@@ -33,7 +33,8 @@ cd crud-usuarios
 ### 2. Instalar dependências
 
 ```bash
-npm install
+npm init -y
+npm install express sqlite3 body-parser
 ```
 
 ### 3. Executar o servidor
