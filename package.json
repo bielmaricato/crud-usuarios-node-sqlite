@@ -1,1 +1,14 @@
-
+{
+  "name": "pocs3",
+  "version": "1.0.0",
+  "description": "Este é um projeto simples de **CRUD (Create, Read, Update, Delete)** para gerenciar usuários, utilizando **Node.js**, **Express** e **SQLite** como banco de dados local.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
