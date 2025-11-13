@@ -45,7 +45,7 @@ app.post("/usuarios", (req, res) => {
 
 // [R] READ - Listar todos os usuários
 app.get("/usuarios", (req, res) => {
-  db.all("SELECT id, username FROM usuarios", [], (err, rows) => {
+  db.all("SELECT * FROM usuarios", [], (err, rows) => {
     if (err) {
       return res.status(500).json({ error: err.message });
     }
